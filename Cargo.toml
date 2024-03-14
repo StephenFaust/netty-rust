@@ -1,0 +1,8 @@
+[workspace]
+members = ["netty-rust-core", "netty-rust-test"]
+
+resolver = "2"
+
+[workspace.dependencies]
+tokio = { version = "1", features = ["full"] }
+num_cpus = "1.13"
